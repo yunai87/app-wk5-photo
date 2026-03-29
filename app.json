@@ -29,6 +29,13 @@
     "plugins": [
       "expo-router",
       [
+        "expo-image-picker",
+        {
+          "photosPermission": "需要存取你的相簿，才能選擇要上傳的照片。",
+          "cameraPermission": "需要使用你的相機，才能拍照上傳。"
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
